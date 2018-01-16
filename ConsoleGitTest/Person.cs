@@ -4,7 +4,7 @@
     {
         public Person(string firstName, string lastName)
         {
-            FirstName = firstName;
+            FirstName = "Worker" + firstName;
             LastName = lastName;
         }
 
