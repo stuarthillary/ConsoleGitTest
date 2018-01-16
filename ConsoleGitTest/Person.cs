@@ -1,4 +1,6 @@
-﻿namespace ConsoleGitTest
+﻿using System;
+
+namespace ConsoleGitTest
 {
     public class Person
     {
@@ -14,5 +16,7 @@
         public string LastName { get; set; }
 
         public string FullName => $"{FirstName} {LastName}";
+
+        public double YearlyBonus { get; set; }
     }
 }
