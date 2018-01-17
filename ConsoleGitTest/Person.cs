@@ -6,7 +6,7 @@ namespace ConsoleGitTest
     {
         public Person(string firstName, string lastName)
         {
-            FirstName = "Worker" + firstName;
+            FirstName = "Manager" + firstName;
             LastName = lastName;
         }
 
