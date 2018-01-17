@@ -16,5 +16,7 @@
         public string FullName => $"{FirstName} {LastName}";
 
         public string NickName { get; set; }
+
+        public bool IsJester { get; set; }
     }
 }
