@@ -14,5 +14,7 @@
         public string LastName { get; set; }
 
         public string FullName => $"{FirstName} {LastName}";
+
+        public string NickName { get; set; }
     }
 }
