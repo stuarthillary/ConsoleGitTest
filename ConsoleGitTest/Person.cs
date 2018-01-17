@@ -18,5 +18,7 @@
         public string NickName { get; set; }
 
         public string FunnyName { get; set; }
+
+        public string FavouriteFood { get; set; }
     }
 }
